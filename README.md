@@ -23,7 +23,7 @@ QQ群: 161263093
 请在项目的`AndroidManifest.xml`文件中加入
 
 ```
-meta-data android:name="TencentMapSDK" android:value="您的key"/>
+<meta-data android:name="TencentMapSDK" android:value="您的key"/>
 ```
 
 ### 使用方式

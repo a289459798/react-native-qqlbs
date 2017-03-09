@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "051402140A87C74C5D9EB2580A9E8ACC7E4D4B19",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "051402140A87C74C5D9EB2580A9E8ACC7E4D4B19" : 9223372036854775807,
+    "8933FBFCCA80CE7653C944C89FC73BE3D44FE134" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FD51A26C-C8FC-4F21-947F-3E9C2BE5B352",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "051402140A87C74C5D9EB2580A9E8ACC7E4D4B19" : "react-native-qqlbs\/",
+    "8933FBFCCA80CE7653C944C89FC73BE3D44FE134" : "..\/..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RCTQQLBSModule",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/RCTQQLBSModule\/RCTQQLBSModule.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/a289459798\/react-native-qqlbs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "051402140A87C74C5D9EB2580A9E8ACC7E4D4B19"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/zhangzy\/yugoumiandan.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8933FBFCCA80CE7653C944C89FC73BE3D44FE134"
+    }
+  ]
+}

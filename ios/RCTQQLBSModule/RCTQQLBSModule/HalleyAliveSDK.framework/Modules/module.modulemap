@@ -1,0 +1,6 @@
+framework module HalleyAliveSDK {
+  umbrella header "HalleyAliveSDK.h"
+
+  export *
+  module * { export * }
+}

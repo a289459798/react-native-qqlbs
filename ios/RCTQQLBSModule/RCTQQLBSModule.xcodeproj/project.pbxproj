@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1115751E7163380061BF35 /* RCTQQLBSModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1115741E7163380061BF35 /* RCTQQLBSModule.m */; };
+		2B1115761E7163380061BF35 /* RCTQQLBSModule.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B1115731E7163380061BF35 /* RCTQQLBSModule.h */; };
+		2B11157E1E7165440061BF35 /* HalleyAliveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B11157C1E7165440061BF35 /* HalleyAliveSDK.framework */; };
+		2B11157F1E7165440061BF35 /* TencentLBS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B11157D1E7165440061BF35 /* TencentLBS.framework */; };
+		2B1115821E7165740061BF35 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1115811E7165740061BF35 /* libz.1.2.5.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B11156E1E7163380061BF35 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				2B1115761E7163380061BF35 /* RCTQQLBSModule.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B1115701E7163380061BF35 /* libRCTQQLBSModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTQQLBSModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1115731E7163380061BF35 /* RCTQQLBSModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTQQLBSModule.h; sourceTree = "<group>"; };
+		2B1115741E7163380061BF35 /* RCTQQLBSModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTQQLBSModule.m; sourceTree = "<group>"; };
+		2B11157C1E7165440061BF35 /* HalleyAliveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HalleyAliveSDK.framework; sourceTree = "<group>"; };
+		2B11157D1E7165440061BF35 /* TencentLBS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentLBS.framework; sourceTree = "<group>"; };
+		2B1115811E7165740061BF35 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B11156D1E7163380061BF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1115821E7165740061BF35 /* libz.1.2.5.tbd in Frameworks */,
+				2B11157F1E7165440061BF35 /* TencentLBS.framework in Frameworks */,
+				2B11157E1E7165440061BF35 /* HalleyAliveSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B1115671E7163370061BF35 = {
+			isa = PBXGroup;
+			children = (
+				2B1115721E7163380061BF35 /* RCTQQLBSModule */,
+				2B1115711E7163380061BF35 /* Products */,
+				2B1115801E7165740061BF35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B1115711E7163380061BF35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B1115701E7163380061BF35 /* libRCTQQLBSModule.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B1115721E7163380061BF35 /* RCTQQLBSModule */ = {
+			isa = PBXGroup;
+			children = (
+				2B11157C1E7165440061BF35 /* HalleyAliveSDK.framework */,
+				2B11157D1E7165440061BF35 /* TencentLBS.framework */,
+				2B1115731E7163380061BF35 /* RCTQQLBSModule.h */,
+				2B1115741E7163380061BF35 /* RCTQQLBSModule.m */,
+			);
+			path = RCTQQLBSModule;
+			sourceTree = "<group>";
+		};
+		2B1115801E7165740061BF35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B1115811E7165740061BF35 /* libz.1.2.5.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B11156F1E7163380061BF35 /* RCTQQLBSModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1115791E7163380061BF35 /* Build configuration list for PBXNativeTarget "RCTQQLBSModule" */;
+			buildPhases = (
+				2B11156C1E7163380061BF35 /* Sources */,
+				2B11156D1E7163380061BF35 /* Frameworks */,
+				2B11156E1E7163380061BF35 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTQQLBSModule;
+			productName = RCTQQLBSModule;
+			productReference = 2B1115701E7163380061BF35 /* libRCTQQLBSModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B1115681E7163370061BF35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zzy;
+				TargetAttributes = {
+					2B11156F1E7163380061BF35 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 33KGZ49A6U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2B11156B1E7163370061BF35 /* Build configuration list for PBXProject "RCTQQLBSModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B1115671E7163370061BF35;
+			productRefGroup = 2B1115711E7163380061BF35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B11156F1E7163380061BF35 /* RCTQQLBSModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B11156C1E7163380061BF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1115751E7163380061BF35 /* RCTQQLBSModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B1115771E7163380061BF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B1115781E7163380061BF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B11157A1E7163380061BF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 33KGZ49A6U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCTQQLBSModule",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../react-native/React";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++.6.0.9,",
+					"-lsqlite3",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2B11157B1E7163380061BF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 33KGZ49A6U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCTQQLBSModule",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../react-native/React";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++.6.0.9,",
+					"-lsqlite3",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B11156B1E7163370061BF35 /* Build configuration list for PBXProject "RCTQQLBSModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1115771E7163380061BF35 /* Debug */,
+				2B1115781E7163380061BF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B1115791E7163380061BF35 /* Build configuration list for PBXNativeTarget "RCTQQLBSModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B11157A1E7163380061BF35 /* Debug */,
+				2B11157B1E7163380061BF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B1115681E7163370061BF35 /* Project object */;
+}
