@@ -1,6 +1,13 @@
 # 集成腾讯地图定位功能
 
+请先到腾讯地图开放平台申请key，申请地址[http://lbs.qq.com/index.html](http://lbs.qq.com/index.html)
 
+##作者
+
+QQ: 289459798
+QQ群: 161263093
+
+欢迎更多的喜欢开源的小伙伴加入
 
 ### 安装
 
@@ -10,6 +17,14 @@
 ```
 
 目前还未提交到npm
+
+### android
+
+请在项目的`AndroidManifest.xml`文件中加入
+
+```
+meta-data android:name="TencentMapSDK" android:value="您的key"/>
+```
 
 ### 使用方式
 
