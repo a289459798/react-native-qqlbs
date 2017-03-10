@@ -20,6 +20,7 @@ class QQLBS extends NativeEventEmitter {
     // 构造
     constructor(props) {
         super(QQLBSModule);
+
         // 初始状态
         this.state = {};
 
