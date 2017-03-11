@@ -16,8 +16,6 @@ QQ群: 161263093
 > react-native link
 ```
 
-目前还未提交到npm
-
 ### android
 
 请在项目的`AndroidManifest.xml`文件中加入
@@ -25,6 +23,23 @@ QQ群: 161263093
 ```
 <meta-data android:name="TencentMapSDK" android:value="您的key"/>
 ```
+
+### IOS
+
+1. 首先在`Info.plist`文件中添加字段 `TencentMapSDK` 值为您在腾讯地图开放平台申请的key
+
+```
+<key>TencentMapSDK</key>
+<string>您的key</string>
+```
+
+2. 在项目的的`Build Settings` 中搜索 `header` 找到 `Framework Search Paths` 添加 `$(SRCROOT)/../node_modules/react-native-qqlbs/ios/RCTQQLBSModule`
+
+3. 将 `Libraries` -> `RCTQQLBSModule.xcodeproj` -> `RCTQQLBSModule` 下面的 `HalleyAliveSDK.framework` 和 `TencentLBS.framework` 文件拖到您的主工程下，不需要勾选 `Copy items if needed`
+
+4. 在 `Build Phases` 中的 `Link Binary With Libraries` 中加入 `libz.1.2.3.tbd`
+
+5. 在 `Build Setting` - `Linking - Other Linker Flags` 里添加 `-lstdc++.6.0.9` 和 `-lsqlite3`
 
 ### 使用方式
 
